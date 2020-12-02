@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+    name="jdbc/mysql"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    username="root"
+    password="park1104"
+    url="jdbc:mysql://192.168.0.114:3306/pyw_test?useSSL=false&amp;serverTimezone=UTC"
+    maxIdle="10" maxActive="20" maxWait="-1" />
+</Context>
